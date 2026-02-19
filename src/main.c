@@ -58,7 +58,7 @@ void main(void)
     {
       GPIO_WriteHigh(LED_GPIO_PORT, (GPIO_Pin_TypeDef)LED_GPIO_PIN);
     }
-    else if (i <= 600)
+    else if (i <= 500)
     {
       GPIO_WriteLow(LED_GPIO_PORT, (GPIO_Pin_TypeDef)LED_GPIO_PIN);
     }
